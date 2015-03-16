@@ -1,0 +1,1217 @@
+@charset "UTF-8";
+/* line 5, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 128, icons/*.png */
+.icons-sprite, .icons-atx-series, .icons-crave, .icons-cruiser-alloy, .icons-delivery, .icons-gear, .icons-hover-plus, .icons-logotype, .icons-moto-metal, .icons-params, .icons-rbp-wheels, .icons-setting {
+  background-image: url('../img/icons-sa963e9ce85.png');
+  background-repeat: no-repeat;
+}
+
+/* line 84, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-atx-series {
+  background-position: 0 0;
+  height: 62px;
+  width: 143px;
+}
+
+/* line 84, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-crave {
+  background-position: 0 -62px;
+  height: 64px;
+  width: 184px;
+}
+
+/* line 84, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-cruiser-alloy {
+  background-position: 0 -126px;
+  height: 62px;
+  width: 143px;
+}
+
+/* line 84, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-delivery {
+  background-position: 0 -188px;
+  height: 26px;
+  width: 32px;
+}
+
+/* line 84, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-gear {
+  background-position: 0 -214px;
+  height: 62px;
+  width: 143px;
+}
+
+/* line 84, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-hover-plus {
+  background-position: 0 -276px;
+  height: 35px;
+  width: 35px;
+}
+
+/* line 84, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-logotype {
+  background-position: 0 -311px;
+  height: 36px;
+  width: 36px;
+}
+
+/* line 84, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-moto-metal {
+  background-position: 0 -347px;
+  height: 62px;
+  width: 143px;
+}
+
+/* line 84, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-params {
+  background-position: 0 -409px;
+  height: 32px;
+  width: 32px;
+}
+
+/* line 84, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-rbp-wheels {
+  background-position: 0 -441px;
+  height: 62px;
+  width: 143px;
+}
+
+/* line 84, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-setting {
+  background-position: 0 -503px;
+  height: 32px;
+  width: 32px;
+}
+
+/* line 9, ../sass/style.sass */
+a {
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "fontello";
+  src: url("../fonts/fontello.eot?15925360");
+  src: url("../fonts/fontello.eot?15925360#iefix") format("embedded-opentype"), url("../fonts/fontello.woff?15925360") format("woff"), url("../fonts/fontello.ttf?15925360") format("truetype"), url("../fonts/fontello.svg?15925360#fontello") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 8, ../sass/_fontello.sass */
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: 0.2em;
+  text-align: center;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1em;
+  margin-left: 0.2em;
+}
+
+/* line 23, ../sass/_fontello.sass */
+.icon-linkedin:before {
+  content: "";
+}
+
+/* line 26, ../sass/_fontello.sass */
+.icon-facebook:before {
+  content: "";
+}
+
+/* line 29, ../sass/_fontello.sass */
+.icon-twitter:before {
+  content: "";
+}
+
+/* line 32, ../sass/_fontello.sass */
+.icon-rss:before {
+  content: "";
+}
+
+/* line 35, ../sass/_fontello.sass */
+.icon-skype:before {
+  content: "";
+}
+
+/* line 38, ../sass/_fontello.sass */
+.icon-search:before {
+  content: "";
+}
+
+/* line 41, ../sass/_fontello.sass */
+.icon-mobile:before {
+  content: "";
+}
+
+/* line 44, ../sass/_fontello.sass */
+.icon-location:before {
+  content: "";
+}
+
+/* line 47, ../sass/_fontello.sass */
+.icon-vcard:before {
+  content: "";
+}
+
+/* line 50, ../sass/_fontello.sass */
+.icon-copyright:before {
+  content: "";
+}
+
+/* line 53, ../sass/_fontello.sass */
+.icon-right-small:before {
+  content: "";
+}
+
+/* line 1, ../sass/_desktop.sass */
+.wrapper {
+  width: 1160px;
+  margin: 0 auto;
+}
+
+/* line 5, ../sass/_desktop.sass */
+.header {
+  overflow: hidden;
+  margin-top: 37px;
+}
+/* line 8, ../sass/_desktop.sass */
+.header img {
+  float: left;
+}
+/* line 10, ../sass/_desktop.sass */
+.header h1 {
+  margin-left: 46px;
+  line-height: 23px;
+}
+/* line 13, ../sass/_desktop.sass */
+.header h1 a {
+  color: #434343;
+  letter-spacing: 1.5px;
+  font-size: 30px;
+  font-family: "Ubuntu", Arial, sans-serif;
+  font-weight: 500;
+}
+/* line 20, ../sass/_desktop.sass */
+.header h2 {
+  margin: -6px 0 0 48px;
+}
+/* line 22, ../sass/_desktop.sass */
+.header h2 a {
+  color: #333333;
+  opacity: 0.65;
+  text-transform: uppercase;
+  letter-spacing: 3.5px;
+  font-size: 12px;
+  font-family: "Ubuntu", Arial, sans-serif;
+  font-weight: 200;
+}
+
+/* line 32, ../sass/_desktop.sass */
+.logo {
+  float: left;
+  margin-left: 4px;
+}
+
+/* line 35, ../sass/_desktop.sass */
+.social-networks {
+  float: right;
+}
+/* line 37, ../sass/_desktop.sass */
+.social-networks ul {
+  padding: 12px 0 0;
+}
+/* line 39, ../sass/_desktop.sass */
+.social-networks li {
+  display: inline-block;
+}
+/* line 41, ../sass/_desktop.sass */
+.social-networks li a {
+  color: #ccc;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+/* line 44, ../sass/_desktop.sass */
+.social-networks li a:hover {
+  color: #248cec;
+}
+
+/* line 46, ../sass/_desktop.sass */
+.top {
+  *zoom: 1;
+  padding: 0 0 37px;
+}
+/* line 38, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_clearfix.scss */
+.top:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 50, ../sass/_desktop.sass */
+.icons-facebook:before {
+  font-size: 20px;
+}
+
+/* line 53, ../sass/_desktop.sass */
+.main-nav {
+  margin: 0 0 40px;
+  background-color: #2a2d32;
+  *zoom: 1;
+}
+/* line 38, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_clearfix.scss */
+.main-nav:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 57, ../sass/_desktop.sass */
+.main-nav ul {
+  float: left;
+}
+/* line 59, ../sass/_desktop.sass */
+.main-nav li {
+  height: 55px;
+  display: inline-block;
+  border-right: 1px solid #000;
+  padding: 0 40px;
+}
+/* line 64, ../sass/_desktop.sass */
+.main-nav li a {
+  font-size: 14px;
+  font-family: "Ubuntu", sans-serif;
+  line-height: 55px;
+  vertical-align: middle;
+  color: #fff;
+  text-transform: uppercase;
+}
+/* line 72, ../sass/_desktop.sass */
+.main-nav li a:hover {
+  color: #f4b60d;
+}
+/* line 74, ../sass/_desktop.sass */
+.main-nav li.current-menu-item {
+  background-color: #248cec;
+}
+/* line 76, ../sass/_desktop.sass */
+.main-nav .search-form {
+  float: right;
+  padding: 6px 8px;
+  position: relative;
+}
+/* line 80, ../sass/_desktop.sass */
+.main-nav .search-field {
+  padding-left: 12px;
+  display: block;
+  width: 224px;
+  height: 38px;
+  border: 1px solid #000;
+  background-color: #35383c;
+  color: #fff;
+}
+/* line 89, ../sass/_desktop.sass */
+.main-nav .search-button {
+  position: absolute;
+  right: 8px;
+  top: 6px;
+  height: 40px;
+  line-height: 40px;
+  width: 30px;
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+  color: #595c5f;
+  cursor: pointer;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+/* line 102, ../sass/_desktop.sass */
+.main-nav .search-button:hover {
+  color: #fff;
+}
+
+/* line 105, ../sass/_desktop.sass */
+.slides li {
+  position: relative;
+  vertical-align: middle;
+}
+/* line 108, ../sass/_desktop.sass */
+.slides li .slider-inscription {
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+}
+/* line 112, ../sass/_desktop.sass */
+.slides li span {
+  padding: 0px 50px 0px 25px;
+  display: inline-block;
+  min-width: 156px;
+  background-color: #1a1a1a;
+  opacity: 0.9;
+  line-height: 62px;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 54px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  left: 35px;
+}
+/* line 126, ../sass/_desktop.sass */
+.slides li span:last-child {
+  padding-bottom: 10px;
+}
+/* line 128, ../sass/_desktop.sass */
+.slides li .yellow-span {
+  color: #f4b60d;
+  padding-top: 25px;
+}
+
+/* line 133, ../sass/_desktop.sass */
+.overall-inform {
+  margin-bottom: 88px;
+}
+/* line 135, ../sass/_desktop.sass */
+.overall-inform .overall-flow {
+  *zoom: 1;
+}
+/* line 38, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_clearfix.scss */
+.overall-inform .overall-flow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 137, ../sass/_desktop.sass */
+.overall-inform i {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+}
+/* line 141, ../sass/_desktop.sass */
+.overall-inform article {
+  counter-increment: article;
+  width: 235px;
+  float: left;
+  position: relative;
+  padding-left: 125px;
+  padding-right: 40px;
+}
+/* line 148, ../sass/_desktop.sass */
+.overall-inform article:last-child {
+  padding-right: 0;
+}
+/* line 150, ../sass/_desktop.sass */
+.overall-inform article:before {
+  content: "0" counter(article);
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #e9e9ea;
+  line-height: 67px;
+  margin: 0 25px 0 0;
+  font-size: 90px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+}
+/* line 162, ../sass/_desktop.sass */
+.overall-inform article .title {
+  margin: 18px 0 27px;
+}
+/* line 164, ../sass/_desktop.sass */
+.overall-inform article .title a {
+  color: #2a2b2e;
+  font-size: 20px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+}
+/* line 171, ../sass/_desktop.sass */
+.overall-inform .note {
+  margin: 0 0 25px 0;
+  color: #8a8a8a;
+  line-height: 20px;
+  font-size: 13px;
+  font-family: "Arial", sans-serif;
+}
+/* line 178, ../sass/_desktop.sass */
+.overall-inform .read-more {
+  color: #2a2b2e;
+  font-size: 13px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+}
+/* line 184, ../sass/_desktop.sass */
+.overall-inform .read-more:hover {
+  color: #248cec;
+}
+/* line 186, ../sass/_desktop.sass */
+.overall-inform .read-more:hover .arrow {
+  background-image: url("../img/arrow-hover.png");
+}
+/* line 189, ../sass/_desktop.sass */
+.overall-inform .arrow {
+  background-image: url("../img/arrow.png");
+  margin-left: 9px;
+  width: 10px;
+  height: 9px;
+}
+
+/* line 195, ../sass/_desktop.sass */
+.services {
+  height: 500px;
+  background-color: #2a2d32;
+}
+/* line 198, ../sass/_desktop.sass */
+.services h3 {
+  text-align: left;
+  line-height: 123px;
+  color: #fff;
+  font-size: 24px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+}
+/* line 207, ../sass/_desktop.sass */
+.services ul {
+  text-align: center;
+}
+/* line 209, ../sass/_desktop.sass */
+.services ul li {
+  margin: 0 2% 0 0;
+  text-align: center;
+  display: inline-block;
+  line-height: normal;
+}
+/* line 215, ../sass/_desktop.sass */
+.services .grid .service-img {
+  margin-bottom: 35px;
+  background-color: #00a2f7;
+  position: relative;
+}
+/* line 219, ../sass/_desktop.sass */
+.services .grid .service-img:before, .services .grid .service-img:after {
+  opacity: 0;
+  content: "";
+  position: absolute;
+  background-color: #FFF;
+  display: block;
+  top: 50%;
+  left: 50%;
+  width: 3px;
+  height: 35px;
+  margin: -17.5px 0 0 -1.5px;
+}
+/* line 231, ../sass/_desktop.sass */
+.services .grid .service-img:after {
+  margin: -1.5px 0 0 -17.5px;
+  width: 35px;
+  height: 3px;
+}
+/* line 235, ../sass/_desktop.sass */
+.services .grid .service-img img {
+  display: block;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+/* line 238, ../sass/_desktop.sass */
+.services .grid a {
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  width: 260px;
+  display: block;
+  color: #fff;
+  font-size: 16px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+}
+/* line 248, ../sass/_desktop.sass */
+.services .grid a:hover {
+  color: #f4b60d;
+}
+/* line 250, ../sass/_desktop.sass */
+.services .grid a:hover img {
+  opacity: 0.1;
+}
+/* line 253, ../sass/_desktop.sass */
+.services .grid a:hover .service-img:before, .services .grid a:hover .service-img:after {
+  opacity: 1;
+  display: block;
+}
+
+/* line 257, ../sass/_desktop.sass */
+.latest-news, .banners-place {
+  float: left;
+  width: 50%;
+}
+/* line 260, ../sass/_desktop.sass */
+.latest-news h3, .banners-place h3 {
+  margin: 64px 0 49px 4px;
+  font-size: 24px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+}
+/* line 266, ../sass/_desktop.sass */
+.latest-news article, .banners-place article {
+  margin-top: 30px;
+  *zoom: 1;
+}
+/* line 38, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_clearfix.scss */
+.latest-news article:after, .banners-place article:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 269, ../sass/_desktop.sass */
+.latest-news .news-img, .banners-place .news-img {
+  float: left;
+  position: relative;
+  width: 25%;
+  margin-right: 5%;
+}
+/* line 274, ../sass/_desktop.sass */
+.latest-news .date, .banners-place .date {
+  position: absolute;
+  top: 12px;
+  left: -17px;
+  font-size: 15px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  text-align: center;
+  width: 40px;
+}
+/* line 284, ../sass/_desktop.sass */
+.latest-news .month, .latest-news .day, .banners-place .month, .banners-place .day {
+  line-height: 40px;
+}
+/* line 286, ../sass/_desktop.sass */
+.latest-news .month, .banners-place .month {
+  background-color: #248cec;
+  color: #fff;
+}
+/* line 289, ../sass/_desktop.sass */
+.latest-news .day, .banners-place .day {
+  background-color: #f4b60d;
+  color: #2a2b2e;
+}
+/* line 292, ../sass/_desktop.sass */
+.latest-news .news-article, .banners-place .news-article {
+  float: left;
+  margin-right: 5%;
+  width: 65%;
+  color: #8a8a8a;
+}
+/* line 297, ../sass/_desktop.sass */
+.latest-news .news-header, .banners-place .news-header {
+  margin-bottom: 25px;
+}
+/* line 299, ../sass/_desktop.sass */
+.latest-news .news-header h4, .banners-place .news-header h4 {
+  color: #2a2d32;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+}
+/* line 306, ../sass/_desktop.sass */
+.latest-news .news-header h4 a, .banners-place .news-header h4 a {
+  color: #2a2d32;
+}
+/* line 309, ../sass/_desktop.sass */
+.latest-news .news-header h4:hover a, .banners-place .news-header h4:hover a {
+  color: #248cec;
+}
+
+/* line 311, ../sass/_desktop.sass */
+.flow {
+  *zoom: 1;
+  padding-bottom: 85px;
+  background-color: #f7f7f7;
+}
+/* line 38, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_clearfix.scss */
+.flow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 317, ../sass/_desktop.sass */
+.accordions .panel .accordion-header {
+  -moz-transition: 0.4s;
+  -o-transition: 0.4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  *zoom: 1;
+  margin-top: 5px;
+  display: block;
+  height: 40px;
+  background-color: #fff;
+  border: 1px solid #e8e8e8;
+}
+/* line 38, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_clearfix.scss */
+.accordions .panel .accordion-header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 325, ../sass/_desktop.sass */
+.accordions .panel .accordion-header .pointer {
+  -moz-transition: 0.4s;
+  -o-transition: 0.4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  float: left;
+  position: relative;
+  width: 40px;
+  height: 100%;
+  border-right: 2px solid #e8e8e8;
+}
+/* line 332, ../sass/_desktop.sass */
+.accordions .panel .accordion-header .pointer:before {
+  -moz-transition: 0.4s;
+  -o-transition: 0.4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  content: "";
+  position: absolute;
+  margin-left: -4.5px;
+  background-color: #000;
+  display: block;
+  top: 50%;
+  left: 50%;
+  width: 9px;
+  height: 1px;
+}
+/* line 343, ../sass/_desktop.sass */
+.accordions .panel .accordion-header h4 {
+  float: left;
+  margin-left: 12px;
+  color: #2a2d32;
+  text-transform: uppercase;
+  line-height: 40px;
+  vertical-align: center;
+  font-size: 13px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+}
+/* line 354, ../sass/_desktop.sass */
+.accordions .panel p {
+  margin: 30px 0 40px 40px;
+  color: #8a8a8a;
+  line-height: 20px;
+  font-size: 13px;
+  font-family: Arial, sans-serif;
+}
+/* line 361, ../sass/_desktop.sass */
+.accordions .panel .accordion-body {
+  display: none;
+}
+/* line 364, ../sass/_desktop.sass */
+.accordions .active .accordion-header {
+  background-color: #f4b60d;
+}
+/* line 366, ../sass/_desktop.sass */
+.accordions .active .accordion-header .pointer {
+  border-right: 2px solid #f6c53d;
+}
+/* line 368, ../sass/_desktop.sass */
+.accordions .active .accordion-header .pointer:before {
+  background-color: #fff;
+}
+/* line 370, ../sass/_desktop.sass */
+.accordions .active .accordion-header h4 {
+  color: #fff;
+}
+/* line 372, ../sass/_desktop.sass */
+.accordions .active .accordion-body {
+  display: block;
+}
+
+/* line 374, ../sass/_desktop.sass */
+.sponsors {
+  line-height: 62px;
+  text-align: center;
+  padding: 85px 0;
+}
+/* line 378, ../sass/_desktop.sass */
+.sponsors li {
+  display: inline-block;
+}
+/* line 380, ../sass/_desktop.sass */
+.sponsors li a {
+  display: block;
+  opacity: 0.65;
+  margin: 0 20px;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+/* line 385, ../sass/_desktop.sass */
+.sponsors li a:hover {
+  opacity: 1;
+}
+
+/* line 388, ../sass/_desktop.sass */
+.main-footer {
+  background-color: #2a2d32;
+}
+/* line 390, ../sass/_desktop.sass */
+.main-footer .footer-flow {
+  overflow: hidden;
+}
+/* line 392, ../sass/_desktop.sass */
+.main-footer .footer-menu {
+  float: left;
+  margin: 0 0 83px 40px;
+}
+/* line 395, ../sass/_desktop.sass */
+.main-footer .footer-menu h4 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  margin: 64px 0 35px;
+}
+/* line 403, ../sass/_desktop.sass */
+.main-footer ul {
+  width: 230px;
+}
+/* line 406, ../sass/_desktop.sass */
+.main-footer ul li {
+  line-height: 36px;
+  border-bottom: 1px solid #393c40;
+}
+/* line 409, ../sass/_desktop.sass */
+.main-footer ul li a {
+  color: #fff;
+  opacity: 0.3;
+  font-size: 13px;
+  font-family: Arial, sans-serif;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+/* line 416, ../sass/_desktop.sass */
+.main-footer ul li a:hover {
+  color: #248cec;
+}
+/* line 418, ../sass/_desktop.sass */
+.main-footer ul li:last-child {
+  border-bottom: none;
+}
+
+/* line 420, ../sass/_desktop.sass */
+.footer-bottom {
+  position: relative;
+  height: 60px;
+  background-color: #35383c;
+}
+/* line 424, ../sass/_desktop.sass */
+.footer-bottom p {
+  float: left;
+  margin-right: 35px;
+  margin-left: 33px;
+  color: #fff;
+  opacity: 0.3;
+  line-height: 60px;
+  vertical-align: middle;
+  font-size: 12px;
+  font-family: Arial, sans-serif;
+}
+/* line 438, ../sass/_desktop.sass */
+.footer-bottom .icon-vcard:before,
+.footer-bottom .icon-location:before,
+.footer-bottom .icon-mobile:before {
+  font-size: 18px;
+  margin-right: 7px;
+}
+/* line 442, ../sass/_desktop.sass */
+.footer-bottom .icon-vcard:before {
+  margin-right: 10px;
+}
+/* line 444, ../sass/_desktop.sass */
+.footer-bottom .copyright {
+  position: absolute;
+  right: 140px;
+}
+
+@font-face {
+  font-family: "flexslider-icon";
+  src: url("fonts/flexslider-icon.eot");
+  src: url("fonts/flexslider-icon.eot?#iefix") format("embedded-opentype"), url("fonts/flexslider-icon.woff") format("woff"), url("fonts/flexslider-icon.ttf") format("truetype"), url("fonts/flexslider-icon.svg#flexslider-icon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 9, ../sass/_flexslider.sass */
+.flex-container a:hover, .flex-slider a:hover, .flex-container a:focus, .flex-slider a:focus {
+  outline: none;
+}
+
+/* line 12, ../sass/_flexslider.sass */
+.slides {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/* line 16, ../sass/_flexslider.sass */
+.slides > li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* line 21, ../sass/_flexslider.sass */
+.flex-control-nav, .flex-direction-nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* line 26, ../sass/_flexslider.sass */
+.flex-pauseplay span {
+  text-transform: capitalize;
+}
+
+/* line 29, ../sass/_flexslider.sass */
+.flexslider {
+  margin: 0;
+  padding: 0;
+}
+/* line 33, ../sass/_flexslider.sass */
+.flexslider .slides > li {
+  display: none;
+  -webkit-backface-visibility: hidden;
+}
+/* line 36, ../sass/_flexslider.sass */
+.flexslider .slides img {
+  width: 100%;
+  display: block;
+}
+/* line 39, ../sass/_flexslider.sass */
+.flexslider .slides:after {
+  content: " ";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+/* line 47, ../sass/_flexslider.sass */
+html[xmlns] .flexslider .slides {
+  display: block;
+}
+
+/* line 50, ../sass/_flexslider.sass */
+* html .flexslider .slides {
+  height: 1%;
+}
+
+/* line 53, ../sass/_flexslider.sass */
+.no-js .flexslider .slides > li:first-child {
+  display: block;
+}
+
+/* line 56, ../sass/_flexslider.sass */
+.flexslider {
+  margin: 0 0 75px;
+  background: #ffffff;
+  border: 4px solid #ffffff;
+  position: relative;
+  zoom: 1;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: "" 0 1px 4px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: "" 0 1px 4px rgba(0, 0, 0, 0.2);
+  -o-box-shadow: "" 0 1px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: "" 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+/* line 69, ../sass/_flexslider.sass */
+.flexslider .slides {
+  zoom: 1;
+}
+/* line 71, ../sass/_flexslider.sass */
+.flexslider .slides img {
+  height: auto;
+}
+
+/* line 74, ../sass/_flexslider.sass */
+.flex-viewport {
+  max-height: 2000px;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+/* line 82, ../sass/_flexslider.sass */
+.loading .flex-viewport {
+  max-height: 300px;
+}
+
+/* line 85, ../sass/_flexslider.sass */
+.carousel li {
+  margin-right: 5px;
+}
+
+/* line 88, ../sass/_flexslider.sass */
+.flex-direction-nav {
+  *height: 0;
+}
+/* line 90, ../sass/_flexslider.sass */
+.flex-direction-nav a {
+  text-decoration: none;
+  display: block;
+  width: 40px;
+  height: 40px;
+  margin: -20px 0 0;
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  overflow: hidden;
+  opacity: 0;
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.8);
+  text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+/* line 109, ../sass/_flexslider.sass */
+.flex-direction-nav a:before {
+  font-family: "flexslider-icon";
+  font-size: 40px;
+  display: inline-block;
+  content: "";
+  color: rgba(0, 0, 0, 0.8);
+  text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
+}
+/* line 116, ../sass/_flexslider.sass */
+.flex-direction-nav a.flex-next:before {
+  content: "";
+}
+/* line 118, ../sass/_flexslider.sass */
+.flex-direction-nav .flex-prev {
+  left: -50px;
+}
+/* line 120, ../sass/_flexslider.sass */
+.flex-direction-nav .flex-next {
+  right: -50px;
+  text-align: right;
+}
+
+/* line 125, ../sass/_flexslider.sass */
+.flexslider:hover .flex-direction-nav .flex-prev {
+  opacity: 0.7;
+  left: 10px;
+}
+/* line 128, ../sass/_flexslider.sass */
+.flexslider:hover .flex-direction-nav .flex-prev:hover {
+  opacity: 1;
+}
+/* line 130, ../sass/_flexslider.sass */
+.flexslider:hover .flex-direction-nav .flex-next {
+  opacity: 0.7;
+  right: 10px;
+}
+/* line 133, ../sass/_flexslider.sass */
+.flexslider:hover .flex-direction-nav .flex-next:hover {
+  opacity: 1;
+}
+
+/* line 136, ../sass/_flexslider.sass */
+.flex-direction-nav .flex-disabled {
+  opacity: 0 !important;
+  filter: alpha(opacity=0);
+  cursor: default;
+}
+
+/* line 141, ../sass/_flexslider.sass */
+.flex-pauseplay a {
+  display: block;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  bottom: 5px;
+  left: 10px;
+  opacity: 0.8;
+  z-index: 10;
+  overflow: hidden;
+  cursor: pointer;
+  color: #000;
+}
+/* line 153, ../sass/_flexslider.sass */
+.flex-pauseplay a:before {
+  font-family: "flexslider-icon";
+  font-size: 20px;
+  display: inline-block;
+  content: "";
+}
+/* line 158, ../sass/_flexslider.sass */
+.flex-pauseplay a:hover {
+  opacity: 1;
+}
+/* line 160, ../sass/_flexslider.sass */
+.flex-pauseplay a .flex-play:before {
+  content: "";
+}
+
+/* line 163, ../sass/_flexslider.sass */
+.flex-control-nav {
+  width: 100%;
+  position: absolute;
+  bottom: 20px;
+  text-align: center;
+  z-index: 2;
+}
+/* line 169, ../sass/_flexslider.sass */
+.flex-control-nav li {
+  margin: 0 6px;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+}
+
+/* line 175, ../sass/_flexslider.sass */
+.flex-control-paging li a {
+  width: 15px;
+  height: 15px;
+  display: block;
+  background: #fff;
+  cursor: pointer;
+  border: 3px solid #fff;
+  text-indent: -9999px;
+  box-sizing: border-box;
+}
+/* line 195, ../sass/_flexslider.sass */
+.flex-control-paging li a.flex-active {
+  background: #001d1d;
+  background: rgba(0, 0, 0, 0.9);
+  cursor: default;
+}
+
+/* line 203, ../sass/_flexslider.sass */
+.flex-control-thumbs {
+  margin: 5px 0 0;
+  position: static;
+  overflow: hidden;
+}
+/* line 207, ../sass/_flexslider.sass */
+.flex-control-thumbs li {
+  width: 25%;
+  float: left;
+  margin: 0;
+}
+/* line 211, ../sass/_flexslider.sass */
+.flex-control-thumbs img {
+  width: 100%;
+  height: auto;
+  display: block;
+  opacity: 0.7;
+  cursor: pointer;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+/* line 222, ../sass/_flexslider.sass */
+.flex-control-thumbs img:hover {
+  opacity: 1;
+}
+/* line 224, ../sass/_flexslider.sass */
+.flex-control-thumbs .flex-active {
+  opacity: 1;
+  cursor: default;
+}
+
+@media screen and (max-width: 860px) {
+  /* line 231, ../sass/_flexslider.sass */
+  .flex-direction-nav .flex-prev {
+    opacity: 1;
+    left: 10px;
+  }
+  /* line 234, ../sass/_flexslider.sass */
+  .flex-direction-nav .flex-next {
+    opacity: 1;
+    right: 10px;
+  }
+}

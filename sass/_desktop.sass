@@ -1,0 +1,457 @@
+.wrapper
+  width: 1160px
+  margin: 0 auto
+
+.header
+  overflow: hidden
+  margin-top: 37px
+  img
+    float: left
+  h1
+    margin-left: 46px
+    line-height: 23px
+    a
+      color: #434343
+      letter-spacing: 1.5px
+      font:
+        size: 30px
+        family: 'Ubuntu', Arial, sans-serif
+        weight: 500 
+  h2
+    margin: -6px 0 0 48px
+    a
+      color: #333333
+      opacity: 0.65
+      text-transform: uppercase
+      letter-spacing: 3.5px
+      font:
+        size: 12px
+        family: 'Ubuntu', Arial, sans-serif
+        weight: 200 
+
+.logo
+  float: left
+  margin-left: 4px
+.social-networks
+  float: right
+  ul
+    padding: 12px 0 0
+  li
+    display: inline-block
+    a 
+      color: #ccc
+      +transition(.3s)
+      &:hover
+        color: #248cec
+.top
+  +pie-clearfix
+  padding: 0 0 37px
+.icons-facebook
+  &:before
+    font-size: 20px
+
+.main-nav
+  margin: 0 0 40px
+  background-color: #2a2d32
+  +pie-clearfix
+  ul 
+    float: left
+  li
+    height: 55px
+    display: inline-block 
+    border-right: 1px solid #000
+    padding: 0 40px
+    a
+      font:
+        size: 14px
+        family: 'Ubuntu', sans-serif
+      line-height: 55px
+      vertical-align: middle
+      color: #fff
+      text-transform: uppercase
+      &:hover
+        color: #f4b60d
+    &.current-menu-item
+      background-color: #248cec
+  .search-form 
+    float: right
+    padding: 6px 8px
+    position: relative
+  .search-field 
+    padding-left: 12px
+    // padding-right: 12px
+    display: block
+    width: 224px
+    height: 38px
+    border: 1px solid #000
+    background-color: #35383c
+    color: #fff
+  .search-button
+    position: absolute
+    right: 8px
+    top: 6px
+    height: 40px
+    line-height: 40px
+    width: 30px
+    background-color: transparent
+    border: none
+    font-size: 16px
+    color: #595c5f
+    cursor: pointer
+    +transition(.3s)
+    &:hover
+      color: #fff
+.slides
+  li
+    position: relative
+    vertical-align: middle
+    .slider-inscription
+      position: absolute
+      bottom: 40px
+      left: 40px
+    span
+      padding: 0px 50px 0px 25px
+      display: inline-block
+      min-width: 156px
+      background-color: #1a1a1a
+      opacity: 0.9
+      line-height: 62px
+      text-transform: uppercase
+      color: #fff
+      font:
+        size: 54px
+        family: 'Ubuntu', sans-serif
+        weight: 500
+      left: 35px
+      &:last-child
+        padding-bottom: 10px
+    .yellow-span
+      color: #f4b60d
+      padding-top: 25px
+    
+
+.overall-inform
+  margin-bottom: 88px
+  .overall-flow
+    +pie-clearfix
+  i
+    display: inline-block
+    width: 32px
+    height: 32px
+  article
+    counter-increment: article
+    width: 235px
+    float: left
+    position: relative  
+    padding-left: 125px
+    padding-right: 40px
+    &:last-child
+      padding-right: 0
+    &:before
+      content: "0" counter(article)
+      position: absolute
+      top: 0
+      left: 0
+      color: #e9e9ea
+      line-height: 67px
+      margin: 0 25px 0 0
+      font:
+        size: 90px
+        family: 'Ubuntu', sans-serif
+        weight: 500
+    .title
+      margin: 18px 0 27px
+      a
+        color: #2a2b2e
+        font:
+          size: 20px
+          family: 'Ubuntu', sans-serif
+          weight: 500
+
+  .note
+    margin: 0 0 25px 0
+    color: #8a8a8a
+    line-height: 20px
+    font:      
+      size: 13px
+      family: 'Arial', sans-serif
+  .read-more 
+    color: #2a2b2e
+    font:      
+      size: 13px
+      family: 'Ubuntu', sans-serif
+      weight: 500 
+    &:hover
+      color: #248cec
+    &:hover .arrow
+      background-image: url("../img/arrow-hover.png")
+      
+  .arrow
+    background-image: url("../img/arrow.png")
+    margin-left: 9px
+    width: 10px
+    height: 9px
+
+.services
+  height: 500px
+  background-color: #2a2d32
+  h3
+    // margin: 0 0 0 380px
+    text-align: left
+    line-height: 123px
+    color: #fff
+    font:
+      size: 24px
+      family: 'Ubuntu', sans-serif
+      weight: 500 
+  ul  
+    text-align: center
+    li
+      margin: 0 2% 0 0 
+      text-align: center
+      display: inline-block
+      line-height: normal
+  .grid
+    .service-img
+      margin-bottom: 35px 
+      background-color: #00a2f7
+      position: relative
+      &:before, &:after
+        opacity: 0
+        // display: none
+        content: ""
+        position: absolute
+        background-color: #FFF
+        display: block
+        top: 50%
+        left: 50%
+        width: 3px
+        height: 35px
+        margin: -17.5px 0 0 -1.5px 
+      &:after
+        margin: -1.5px 0 0 -17.5px 
+        width: 35px
+        height: 3px
+      img 
+        display: block
+        +transition(0.3s)
+    a
+      +transition(0.3s)
+      width: 260px
+      display: block
+      color: #fff
+      font:      
+        size: 16px
+        family: 'Ubuntu', sans-serif
+        weight: 500 
+
+      &:hover 
+        color: #f4b60d
+        img
+          opacity: .1
+        .service-img
+          &:before, &:after
+            opacity: 1
+            display: block
+
+.latest-news, .banners-place
+  float: left
+  width: 50%
+  h3
+    margin: 64px 0 49px 4px
+    font:      
+      size: 24px
+      family: 'Ubuntu', sans-serif
+      weight: 500 
+  article
+    margin-top: 30px
+    +pie-clearfix
+  .news-img
+    float: left
+    position: relative
+    width: 25%
+    margin-right: 5%
+  .date
+    position: absolute
+    top: 12px
+    left: -17px
+    font:      
+      size: 15px
+      family: 'Ubuntu', sans-serif
+      weight: 500 
+    text-align: center
+    width: 40px
+  .month, .day
+    line-height: 40px
+  .month 
+    background-color: #248cec
+    color: #fff
+  .day
+    background-color: #f4b60d
+    color: #2a2b2e
+  .news-article
+    float: left
+    margin-right: 5%
+    width: 65%
+    color: #8a8a8a
+  .news-header
+    margin-bottom: 25px
+    h4
+      color: #2a2d32
+      margin-bottom: 10px
+      font: 
+        size: 16px
+        family: 'Ubuntu', sans-serif
+        weight: 500
+      a
+        color: #2a2d32
+      &:hover
+        a
+          color: #248cec 
+.flow
+  +pie-clearfix
+  padding-bottom: 85px
+  background-color: #f7f7f7
+.accordions
+  .panel
+    .accordion-header
+      +transition(0.4s)
+      +pie-clearfix
+      margin-top: 5px
+      display: block
+      height: 40px
+      background-color: #fff
+      border: 1px solid #e8e8e8
+      .pointer
+        +transition(0.4s)
+        float: left
+        position: relative
+        width: 40px
+        height: 100%
+        border-right: 2px solid #e8e8e8
+        &:before
+          +transition(0.4s)
+          content: ""
+          position: absolute
+          margin-left: -4.5px
+          background-color: #000
+          display: block
+          top: 50%
+          left: 50%
+          width: 9px
+          height: 1px
+      h4
+        float: left
+        margin-left: 12px
+        color: #2a2d32
+        text-transform: uppercase
+        line-height: 40px
+        vertical-align: center
+        font: 
+          size: 13px
+          family: 'Ubuntu', sans-serif
+          weight: 500 
+    p 
+      margin: 30px 0 40px 40px
+      color: #8a8a8a
+      line-height: 20px
+      font: 
+        size: 13px
+        family: Arial, sans-serif
+    .accordion-body
+      display: none
+  .active
+    .accordion-header
+      background-color: #f4b60d
+      .pointer
+        border-right: 2px solid #f6c53d
+        &:before
+          background-color: #fff
+      h4
+        color: #fff 
+    .accordion-body
+      display: block
+.sponsors
+  line-height: 62px
+  text-align: center
+  padding: 85px 0
+  li 
+    display: inline-block
+    a
+      display: block
+      opacity: 0.65
+      margin: 0 20px
+      +transition(0.3s)
+      &:hover
+        opacity: 1
+
+.main-footer
+  background-color: #2a2d32
+  .footer-flow
+    overflow: hidden
+  .footer-menu
+    float: left
+    margin: 0 0 83px 40px
+    h4  
+      color: #fff
+      text-transform: uppercase
+      font:
+        size: 16px
+        family: 'Ubuntu',sans-serif
+        weight: 500
+      margin: 64px 0 35px
+  ul 
+    
+    width: 230px
+    li
+      line-height: 36px
+      border-bottom: 1px solid #393c40
+      a
+        color: #fff
+        opacity: 0.3
+        font:
+          size: 13px
+          family: Arial, sans-serif
+        +transition(0.3s)
+        &:hover  
+          color: #248cec
+      &:last-child
+        border-bottom: none
+.footer-bottom
+  position: relative 
+  height: 60px
+  background-color: #35383c
+  p
+    float: left
+    margin-right: 35px
+    margin-left: 33px
+    color: #fff
+    opacity: 0.3
+    line-height: 60px
+    vertical-align: middle
+    font:
+      size: 12px
+      family: Arial, sans-serif
+  .icon-vcard,
+  .icon-location,
+  .icon-mobile
+    &:before
+      font-size: 18px
+      margin-right: 7px
+  .icon-vcard
+    &:before
+      margin-right: 10px
+  .copyright
+    position: absolute
+    right: 140px
+
+
+
+
+
+
+
+  
+
+    
+
