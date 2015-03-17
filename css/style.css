@@ -362,13 +362,13 @@ a {
 .main-nav li.current-menu-item {
   background-color: #248cec;
 }
-/* line 76, ../sass/_desktop.sass */
+/* line 79, ../sass/_desktop.sass */
 .main-nav .search-form {
   float: right;
   padding: 6px 8px;
   position: relative;
 }
-/* line 80, ../sass/_desktop.sass */
+/* line 83, ../sass/_desktop.sass */
 .main-nav .search-field {
   padding-left: 12px;
   display: block;
@@ -378,7 +378,7 @@ a {
   background-color: #35383c;
   color: #fff;
 }
-/* line 89, ../sass/_desktop.sass */
+/* line 92, ../sass/_desktop.sass */
 .main-nav .search-button {
   position: absolute;
   right: 8px;
@@ -396,23 +396,23 @@ a {
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
-/* line 102, ../sass/_desktop.sass */
+/* line 105, ../sass/_desktop.sass */
 .main-nav .search-button:hover {
   color: #fff;
 }
 
-/* line 105, ../sass/_desktop.sass */
+/* line 108, ../sass/_desktop.sass */
 .slides li {
   position: relative;
   vertical-align: middle;
 }
-/* line 108, ../sass/_desktop.sass */
+/* line 111, ../sass/_desktop.sass */
 .slides li .slider-inscription {
   position: absolute;
   bottom: 40px;
   left: 40px;
 }
-/* line 112, ../sass/_desktop.sass */
+/* line 115, ../sass/_desktop.sass */
 .slides li span {
   padding: 0px 50px 0px 25px;
   display: inline-block;
@@ -427,21 +427,21 @@ a {
   font-weight: 500;
   left: 35px;
 }
-/* line 126, ../sass/_desktop.sass */
+/* line 129, ../sass/_desktop.sass */
 .slides li span:last-child {
   padding-bottom: 10px;
 }
-/* line 128, ../sass/_desktop.sass */
+/* line 131, ../sass/_desktop.sass */
 .slides li .yellow-span {
   color: #f4b60d;
   padding-top: 25px;
 }
 
-/* line 133, ../sass/_desktop.sass */
+/* line 136, ../sass/_desktop.sass */
 .overall-inform {
   margin-bottom: 88px;
 }
-/* line 135, ../sass/_desktop.sass */
+/* line 138, ../sass/_desktop.sass */
 .overall-inform .overall-flow {
   *zoom: 1;
 }
@@ -451,13 +451,13 @@ a {
   display: table;
   clear: both;
 }
-/* line 137, ../sass/_desktop.sass */
+/* line 140, ../sass/_desktop.sass */
 .overall-inform i {
   display: inline-block;
   width: 32px;
   height: 32px;
 }
-/* line 141, ../sass/_desktop.sass */
+/* line 144, ../sass/_desktop.sass */
 .overall-inform article {
   counter-increment: article;
   width: 235px;
@@ -466,11 +466,11 @@ a {
   padding-left: 125px;
   padding-right: 40px;
 }
-/* line 148, ../sass/_desktop.sass */
+/* line 151, ../sass/_desktop.sass */
 .overall-inform article:last-child {
   padding-right: 0;
 }
-/* line 150, ../sass/_desktop.sass */
+/* line 153, ../sass/_desktop.sass */
 .overall-inform article:before {
   content: "0" counter(article);
   position: absolute;
@@ -483,18 +483,18 @@ a {
   font-family: "Ubuntu", sans-serif;
   font-weight: 500;
 }
-/* line 162, ../sass/_desktop.sass */
+/* line 165, ../sass/_desktop.sass */
 .overall-inform article .title {
   margin: 18px 0 27px;
 }
-/* line 164, ../sass/_desktop.sass */
+/* line 167, ../sass/_desktop.sass */
 .overall-inform article .title a {
   color: #2a2b2e;
   font-size: 20px;
   font-family: "Ubuntu", sans-serif;
   font-weight: 500;
 }
-/* line 171, ../sass/_desktop.sass */
+/* line 174, ../sass/_desktop.sass */
 .overall-inform .note {
   margin: 0 0 25px 0;
   color: #8a8a8a;
@@ -502,22 +502,22 @@ a {
   font-size: 13px;
   font-family: "Arial", sans-serif;
 }
-/* line 178, ../sass/_desktop.sass */
+/* line 181, ../sass/_desktop.sass */
 .overall-inform .read-more {
   color: #2a2b2e;
   font-size: 13px;
   font-family: "Ubuntu", sans-serif;
   font-weight: 500;
 }
-/* line 184, ../sass/_desktop.sass */
+/* line 187, ../sass/_desktop.sass */
 .overall-inform .read-more:hover {
   color: #248cec;
 }
-/* line 186, ../sass/_desktop.sass */
+/* line 189, ../sass/_desktop.sass */
 .overall-inform .read-more:hover .arrow {
   background-image: url("../img/arrow-hover.png");
 }
-/* line 189, ../sass/_desktop.sass */
+/* line 192, ../sass/_desktop.sass */
 .overall-inform .arrow {
   background-image: url("../img/arrow.png");
   margin-left: 9px;
@@ -525,12 +525,12 @@ a {
   height: 9px;
 }
 
-/* line 195, ../sass/_desktop.sass */
+/* line 198, ../sass/_desktop.sass */
 .services {
   height: 500px;
   background-color: #2a2d32;
 }
-/* line 198, ../sass/_desktop.sass */
+/* line 201, ../sass/_desktop.sass */
 .services h3 {
   text-align: left;
   line-height: 123px;
@@ -539,24 +539,24 @@ a {
   font-family: "Ubuntu", sans-serif;
   font-weight: 500;
 }
-/* line 207, ../sass/_desktop.sass */
+/* line 210, ../sass/_desktop.sass */
 .services ul {
   text-align: center;
 }
-/* line 209, ../sass/_desktop.sass */
+/* line 212, ../sass/_desktop.sass */
 .services ul li {
   margin: 0 2% 0 0;
   text-align: center;
   display: inline-block;
   line-height: normal;
 }
-/* line 215, ../sass/_desktop.sass */
+/* line 218, ../sass/_desktop.sass */
 .services .grid .service-img {
   margin-bottom: 35px;
   background-color: #00a2f7;
   position: relative;
 }
-/* line 219, ../sass/_desktop.sass */
+/* line 222, ../sass/_desktop.sass */
 .services .grid .service-img:before, .services .grid .service-img:after {
   opacity: 0;
   content: "";
@@ -569,13 +569,13 @@ a {
   height: 35px;
   margin: -17.5px 0 0 -1.5px;
 }
-/* line 231, ../sass/_desktop.sass */
+/* line 234, ../sass/_desktop.sass */
 .services .grid .service-img:after {
   margin: -1.5px 0 0 -17.5px;
   width: 35px;
   height: 3px;
 }
-/* line 235, ../sass/_desktop.sass */
+/* line 238, ../sass/_desktop.sass */
 .services .grid .service-img img {
   display: block;
   -moz-transition: 0.3s;
@@ -583,7 +583,7 @@ a {
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
-/* line 238, ../sass/_desktop.sass */
+/* line 241, ../sass/_desktop.sass */
 .services .grid a {
   -moz-transition: 0.3s;
   -o-transition: 0.3s;
@@ -596,33 +596,33 @@ a {
   font-family: "Ubuntu", sans-serif;
   font-weight: 500;
 }
-/* line 248, ../sass/_desktop.sass */
+/* line 251, ../sass/_desktop.sass */
 .services .grid a:hover {
   color: #f4b60d;
 }
-/* line 250, ../sass/_desktop.sass */
+/* line 253, ../sass/_desktop.sass */
 .services .grid a:hover img {
   opacity: 0.1;
 }
-/* line 253, ../sass/_desktop.sass */
+/* line 256, ../sass/_desktop.sass */
 .services .grid a:hover .service-img:before, .services .grid a:hover .service-img:after {
   opacity: 1;
   display: block;
 }
 
-/* line 257, ../sass/_desktop.sass */
+/* line 260, ../sass/_desktop.sass */
 .latest-news, .banners-place {
   float: left;
   width: 50%;
 }
-/* line 260, ../sass/_desktop.sass */
+/* line 263, ../sass/_desktop.sass */
 .latest-news h3, .banners-place h3 {
   margin: 64px 0 49px 4px;
   font-size: 24px;
   font-family: "Ubuntu", sans-serif;
   font-weight: 500;
 }
-/* line 266, ../sass/_desktop.sass */
+/* line 269, ../sass/_desktop.sass */
 .latest-news article, .banners-place article {
   margin-top: 30px;
   *zoom: 1;
@@ -633,14 +633,14 @@ a {
   display: table;
   clear: both;
 }
-/* line 269, ../sass/_desktop.sass */
+/* line 272, ../sass/_desktop.sass */
 .latest-news .news-img, .banners-place .news-img {
   float: left;
   position: relative;
   width: 25%;
   margin-right: 5%;
 }
-/* line 274, ../sass/_desktop.sass */
+/* line 277, ../sass/_desktop.sass */
 .latest-news .date, .banners-place .date {
   position: absolute;
   top: 12px;
@@ -651,32 +651,32 @@ a {
   text-align: center;
   width: 40px;
 }
-/* line 284, ../sass/_desktop.sass */
+/* line 287, ../sass/_desktop.sass */
 .latest-news .month, .latest-news .day, .banners-place .month, .banners-place .day {
   line-height: 40px;
 }
-/* line 286, ../sass/_desktop.sass */
+/* line 289, ../sass/_desktop.sass */
 .latest-news .month, .banners-place .month {
   background-color: #248cec;
   color: #fff;
 }
-/* line 289, ../sass/_desktop.sass */
+/* line 292, ../sass/_desktop.sass */
 .latest-news .day, .banners-place .day {
   background-color: #f4b60d;
   color: #2a2b2e;
 }
-/* line 292, ../sass/_desktop.sass */
+/* line 295, ../sass/_desktop.sass */
 .latest-news .news-article, .banners-place .news-article {
   float: left;
   margin-right: 5%;
   width: 65%;
   color: #8a8a8a;
 }
-/* line 297, ../sass/_desktop.sass */
+/* line 300, ../sass/_desktop.sass */
 .latest-news .news-header, .banners-place .news-header {
   margin-bottom: 25px;
 }
-/* line 299, ../sass/_desktop.sass */
+/* line 302, ../sass/_desktop.sass */
 .latest-news .news-header h4, .banners-place .news-header h4 {
   color: #2a2d32;
   margin-bottom: 10px;
@@ -684,16 +684,16 @@ a {
   font-family: "Ubuntu", sans-serif;
   font-weight: 500;
 }
-/* line 306, ../sass/_desktop.sass */
+/* line 309, ../sass/_desktop.sass */
 .latest-news .news-header h4 a, .banners-place .news-header h4 a {
   color: #2a2d32;
 }
-/* line 309, ../sass/_desktop.sass */
+/* line 312, ../sass/_desktop.sass */
 .latest-news .news-header h4:hover a, .banners-place .news-header h4:hover a {
   color: #248cec;
 }
 
-/* line 311, ../sass/_desktop.sass */
+/* line 314, ../sass/_desktop.sass */
 .flow {
   *zoom: 1;
   padding-bottom: 85px;
@@ -706,7 +706,7 @@ a {
   clear: both;
 }
 
-/* line 317, ../sass/_desktop.sass */
+/* line 320, ../sass/_desktop.sass */
 .accordions .panel .accordion-header {
   -moz-transition: 0.4s;
   -o-transition: 0.4s;
@@ -725,7 +725,7 @@ a {
   display: table;
   clear: both;
 }
-/* line 325, ../sass/_desktop.sass */
+/* line 328, ../sass/_desktop.sass */
 .accordions .panel .accordion-header .pointer {
   -moz-transition: 0.4s;
   -o-transition: 0.4s;
@@ -737,7 +737,7 @@ a {
   height: 100%;
   border-right: 2px solid #e8e8e8;
 }
-/* line 332, ../sass/_desktop.sass */
+/* line 335, ../sass/_desktop.sass */
 .accordions .panel .accordion-header .pointer:before {
   -moz-transition: 0.4s;
   -o-transition: 0.4s;
@@ -753,7 +753,7 @@ a {
   width: 9px;
   height: 1px;
 }
-/* line 343, ../sass/_desktop.sass */
+/* line 346, ../sass/_desktop.sass */
 .accordions .panel .accordion-header h4 {
   float: left;
   margin-left: 12px;
@@ -765,7 +765,7 @@ a {
   font-family: "Ubuntu", sans-serif;
   font-weight: 500;
 }
-/* line 354, ../sass/_desktop.sass */
+/* line 357, ../sass/_desktop.sass */
 .accordions .panel p {
   margin: 30px 0 40px 40px;
   color: #8a8a8a;
@@ -773,42 +773,42 @@ a {
   font-size: 13px;
   font-family: Arial, sans-serif;
 }
-/* line 361, ../sass/_desktop.sass */
+/* line 364, ../sass/_desktop.sass */
 .accordions .panel .accordion-body {
   display: none;
 }
-/* line 364, ../sass/_desktop.sass */
+/* line 367, ../sass/_desktop.sass */
 .accordions .active .accordion-header {
   background-color: #f4b60d;
 }
-/* line 366, ../sass/_desktop.sass */
+/* line 369, ../sass/_desktop.sass */
 .accordions .active .accordion-header .pointer {
   border-right: 2px solid #f6c53d;
 }
-/* line 368, ../sass/_desktop.sass */
+/* line 371, ../sass/_desktop.sass */
 .accordions .active .accordion-header .pointer:before {
   background-color: #fff;
 }
-/* line 370, ../sass/_desktop.sass */
+/* line 373, ../sass/_desktop.sass */
 .accordions .active .accordion-header h4 {
   color: #fff;
 }
-/* line 372, ../sass/_desktop.sass */
+/* line 375, ../sass/_desktop.sass */
 .accordions .active .accordion-body {
   display: block;
 }
 
-/* line 374, ../sass/_desktop.sass */
+/* line 377, ../sass/_desktop.sass */
 .sponsors {
   line-height: 62px;
   text-align: center;
   padding: 85px 0;
 }
-/* line 378, ../sass/_desktop.sass */
+/* line 381, ../sass/_desktop.sass */
 .sponsors li {
   display: inline-block;
 }
-/* line 380, ../sass/_desktop.sass */
+/* line 383, ../sass/_desktop.sass */
 .sponsors li a {
   display: block;
   opacity: 0.65;
@@ -818,25 +818,25 @@ a {
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
-/* line 385, ../sass/_desktop.sass */
+/* line 388, ../sass/_desktop.sass */
 .sponsors li a:hover {
   opacity: 1;
 }
 
-/* line 388, ../sass/_desktop.sass */
+/* line 391, ../sass/_desktop.sass */
 .main-footer {
   background-color: #2a2d32;
 }
-/* line 390, ../sass/_desktop.sass */
+/* line 393, ../sass/_desktop.sass */
 .main-footer .footer-flow {
   overflow: hidden;
 }
-/* line 392, ../sass/_desktop.sass */
+/* line 395, ../sass/_desktop.sass */
 .main-footer .footer-menu {
   float: left;
   margin: 0 0 83px 40px;
 }
-/* line 395, ../sass/_desktop.sass */
+/* line 398, ../sass/_desktop.sass */
 .main-footer .footer-menu h4 {
   color: #fff;
   text-transform: uppercase;
@@ -845,16 +845,16 @@ a {
   font-weight: 500;
   margin: 64px 0 35px;
 }
-/* line 403, ../sass/_desktop.sass */
+/* line 406, ../sass/_desktop.sass */
 .main-footer ul {
   width: 230px;
 }
-/* line 406, ../sass/_desktop.sass */
+/* line 409, ../sass/_desktop.sass */
 .main-footer ul li {
   line-height: 36px;
   border-bottom: 1px solid #393c40;
 }
-/* line 409, ../sass/_desktop.sass */
+/* line 412, ../sass/_desktop.sass */
 .main-footer ul li a {
   color: #fff;
   opacity: 0.3;
@@ -865,22 +865,22 @@ a {
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
-/* line 416, ../sass/_desktop.sass */
+/* line 419, ../sass/_desktop.sass */
 .main-footer ul li a:hover {
   color: #248cec;
 }
-/* line 418, ../sass/_desktop.sass */
+/* line 421, ../sass/_desktop.sass */
 .main-footer ul li:last-child {
   border-bottom: none;
 }
 
-/* line 420, ../sass/_desktop.sass */
+/* line 423, ../sass/_desktop.sass */
 .footer-bottom {
   position: relative;
   height: 60px;
   background-color: #35383c;
 }
-/* line 424, ../sass/_desktop.sass */
+/* line 427, ../sass/_desktop.sass */
 .footer-bottom p {
   float: left;
   margin-right: 35px;
@@ -892,18 +892,18 @@ a {
   font-size: 12px;
   font-family: Arial, sans-serif;
 }
-/* line 438, ../sass/_desktop.sass */
+/* line 441, ../sass/_desktop.sass */
 .footer-bottom .icon-vcard:before,
 .footer-bottom .icon-location:before,
 .footer-bottom .icon-mobile:before {
   font-size: 18px;
   margin-right: 7px;
 }
-/* line 442, ../sass/_desktop.sass */
+/* line 445, ../sass/_desktop.sass */
 .footer-bottom .icon-vcard:before {
   margin-right: 10px;
 }
-/* line 444, ../sass/_desktop.sass */
+/* line 447, ../sass/_desktop.sass */
 .footer-bottom .copyright {
   position: absolute;
   right: 140px;
