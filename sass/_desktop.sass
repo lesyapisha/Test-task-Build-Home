@@ -3,7 +3,7 @@
   margin: 0 auto
 
 .header
-  overflow: hidden
+  // overflow: hidden
   margin-top: 37px
   img
     float: left
@@ -11,6 +11,7 @@
     margin-left: 46px
     line-height: 23px
     a
+      // display: block
       color: #434343
       letter-spacing: 1.5px
       font:
@@ -28,6 +29,8 @@
         size: 12px
         family: 'Ubuntu', Arial, sans-serif
         weight: 200 
+  .logo-img
+    overflow: hidden
 
 .logo
   float: left
@@ -56,12 +59,13 @@
   +pie-clearfix
   ul 
     float: left
-  li
+  .menu-item
     height: 55px
     display: inline-block 
     border-right: 1px solid #000
     padding: 0 40px
     a
+      display: block
       font:
         size: 14px
         family: 'Ubuntu', sans-serif
@@ -71,18 +75,16 @@
       text-transform: uppercase
       &:hover
         color: #f4b60d
+                  
     &.current-menu-item
       background-color: #248cec
-  // .dropdown     
-  //   position: absolute
-  //   display: blo
+ 
   .search-form 
     float: right
     padding: 6px 8px
     position: relative
   .search-field 
     padding-left: 12px
-    // padding-right: 12px
     display: block
     width: 224px
     height: 38px
@@ -104,6 +106,34 @@
     +transition(.3s)
     &:hover
       color: #fff
+  .dropdown
+    position: relative
+    .submenu
+      +transition(.3s)
+      // opacity: 0
+      display: none
+      position: absolute
+      width: 220px
+      background-color: #35383c
+      top: 55px
+      left: -5px
+      z-index: 3
+      li 
+        // border-left: 5px solid #2a2d32 
+        border-bottom: 1px solid #2a2d32
+        text-align: left
+        a
+          display: block
+          padding-left: 13px
+          line-height: 45px
+          &:hover  
+            background-color: #248cec
+  .services-nav
+    &:hover
+      .submenu
+        display: block
+        // opacity: 1
+    
 .slides
   li
     position: relative
